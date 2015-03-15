@@ -6,11 +6,11 @@ function myecho()
 	echo =========================================================	
 }
 
-sudo echo -e "[user]\n\tname = EasyEngine\n\temail = root@easyengine.com" > ~/.gitconfig 
+sudo echo -e "[user]\n\tname = przemekcichon\n\temail = przemekcichon@gmail.com" > ~/.gitconfig 
 
 myecho
 
-wget -qO ee rt.cx/ee && sudo bash ee stable || exit 1
+wget -qO ee rt.cx/ee && sudo bash ee || exit 1
 
 myecho
 
@@ -18,6 +18,6 @@ sudo ee stack install || exit 1
 
 myecho
 
-sudo ee site create easyengine.com --wpfc || exit 1
+sudo ee site create sajdnota.dev --wpfc || exit 1
 
 myecho
